@@ -132,4 +132,3 @@ The project is easily extendable; future improvements could include:
 * Allowing users to select different macronutrient ratios (e.g., ketogenic, high-carb, etc.).
 
 * Implementing a graphical user interface (GUI) for a more user-friendly experience.
-
