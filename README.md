@@ -59,9 +59,9 @@ We used standard multipliers to estimate TDEE based on activity level:
 
 * Moderately active (moderate exercise 3–5 days/week): 1.55
 
-* Very active (hard exercise 6–7 days/week): 1.725
+* Active (hard exercise 6–7 days/week): 1.725
 
-* Extremely active (very intense daily exercise): 1.9
+* Very active (very intense daily exercise): 1.9
 
 These multipliers are widely used in fitness communities and provide reasonable approximations of daily calorie needs.
 
