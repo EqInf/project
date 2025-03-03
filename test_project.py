@@ -1,6 +1,7 @@
 import pytest
 from project import calculate_bmr, calculate_tdee, macronutrient_distribution
 
+# def test_calculate_bmr was done by ChatGPT and was used as an example of proper logic. Following functions, which are test_calculate_tdee and test_macronutrient_distribution were done on our own.
 def test_calculate_bmr():
     assert calculate_bmr(70, 175, 25, "male") == pytest.approx(1673.75, rel=1e-2)
     assert calculate_bmr(60, 160, 30, "female") == pytest.approx(1289.0, rel=1e-2)
