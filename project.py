@@ -1,6 +1,6 @@
 import math
 
-def calculate_bmr(weight_kg: float, height_cm: float, age: int, gender: str) -> float:
+def calculate_bmr(weight_kg: float, height_cm: float, age: int, gender: str) -> float: #This line was suggested by ChatGPT
     """
     Calculate Basal Metabolic Rate (BMR) using the Mifflin-St Jeor Equation.
     """
@@ -15,6 +15,7 @@ def calculate_tdee(bmr: float, activity_level: str) -> float:
     """
     Calculate Total Daily Energy Expenditure (TDEE) based on activity level.
     """
+    #Whole function "activity multipliers" was suggested by ChatGPT
     activity_multipliers = {
         "sedentary": 1.2,
         "light": 1.375,
@@ -43,6 +44,7 @@ def macronutrient_distribution(tdee: float, goal: str) -> dict:
     
     target_calories = tdee * goals[goal.lower()]
     
+    # 90% of the logic bellow was discovered through ChatGPT 
     macros = {
         "protein": math.ceil((target_calories * 0.3) / 4),  # 30% calories from protein (4 cal per gram)
         "carbs": math.ceil((target_calories * 0.5) / 4),   # 50% calories from carbs (4 cal per gram)
