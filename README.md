@@ -1,5 +1,5 @@
 # Daily Calorie & Macronutrient Calculator
-### Video DEMO:
+### Video DEMO: https://youtu.be/gJh8rqEeOQA
 ## Description:
 ### Overview:
 
